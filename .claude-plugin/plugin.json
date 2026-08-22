@@ -1,0 +1,21 @@
+{
+  "name": "anthocodes-skills",
+  "version": "1.0.0",
+  "description": "My collection of skills",
+  "author": {
+    "name": "anthocodes99",
+    "url": "https://github.com/anthocodes99"
+  },
+  "repository": "https://github.com/anthocodes99/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agent-skills",
+    "claude-code",
+    "productivity",
+    "engineering"
+  ],
+  "skills": [
+    "./skills/what"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "anthocodes",
+  "owner": {
+    "name": "anthocodes99",
+    "url": "https://github.com/anthocodes99"
+  },
+  "description": "My collection of agent skills.",
+  "plugins": [
+    {
+      "name": "anthocodes-skills",
+      "source": "./",
+      "description": "My collection of skills",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "agent-skills",
+        "claude-code",
+        "productivity",
+        "engineering"
+      ]
+    }
+  ]
+}
