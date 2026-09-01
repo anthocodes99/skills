@@ -1,0 +1,23 @@
+{
+  "skill_name": "generate-uat",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "can you help me create UAT based on this feature? /Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-30-fengshui-service-type-column-design.md",
+      "expected_output": "A UAT document saved to docs/uat/ with a summary table at the top, 2+ named flows each with Objective / Precondition / Steps / Fail If / Result callout / Remark, and steps that reference real UI elements found in the fr-fss codebase.",
+      "files": ["/Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-30-fengshui-service-type-column-design.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "generate UAT for /Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-22-ph2-f-06-report-generation-design.md",
+      "expected_output": "A UAT document saved to docs/uat/ covering the report generation module — flows should include generating a report, downloading it, and viewing it. Steps should reference real UI elements found in the codebase.",
+      "files": ["/Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-22-ph2-f-06-report-generation-design.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "create UAT based on this bug fix /Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-29-ph2-a-02-report-amendment-design.md",
+      "expected_output": "A UAT document covering the report amendment flow — flows derived from the amendment module's UI, not just the bug that was fixed. Summary table present with TBD statuses.",
+      "files": ["/Users/anthocodes99/Development/fr-fss/docs/superpowers/specs/2026-06-29-ph2-a-02-report-amendment-design.md"]
+    }
+  ]
+}
