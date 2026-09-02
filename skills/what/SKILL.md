@@ -4,10 +4,10 @@ description: >
   User does not understand what's going on.
 disable-model-invocation: true
 meta:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
-User does not know what's going on. Give more context around the system you are talking about, and explain using the following structure.
+User does not know what did you just said. Give more context around the system you are talking about, and explain using the following structure.
 
 1. Context
 1. Problem Statement
