@@ -4,7 +4,7 @@ description: >
   User wants to implement all ticket from a single spec, in this conversation.
 disable-model-invocation: true
 meta:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 User wants to implement all the tickets of a single spec. Follow these steps:
@@ -25,5 +25,6 @@ Commit your work to the current branch.
 Then continue with your own prompt. Be sure to give /tdd skill to the subagent.
 
 3. Once coder agent done, use /code-review to review the work.
-4. Then repeat Step 1 to Step 4 on each ticket.
-5. Once done, use /finishing-a-development-branch to close off the branch.
+4. If the review found out issues with the code, determine whether to raise to the user or continue. Consider raising if the issue wasn't handled during spec & planning phase.
+5. Then repeat Step 1 to Step 4 on each ticket.
+6. Once done, use /finishing-a-development-branch to close off the branch.
